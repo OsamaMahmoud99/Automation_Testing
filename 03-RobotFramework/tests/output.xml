@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.9 on win32)" generated="2025-10-17T11:48:23.666482" rpa="false" schemaversion="5">
+<suite id="s1" name="testDemo1" source="G:\OSAMAA\SoftwareTesting\Udemy\RobotFramework\tests\testDemo1.robot">
+<test id="s1-t1" name="Validate UnSuccessful Login" line="10">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Create WebDriver">
+<msg time="2025-10-17T11:48:23.715480" level="FAIL">No keyword with name 'Create WebDriver' found.</msg>
+<arg>Chrome</arg>
+<arg>executable_path=./chrom-win64/chrome.exe</arg>
+<status status="FAIL" start="2025-10-17T11:48:23.715480" elapsed="0.000000">No keyword with name 'Create WebDriver' found.</status>
+</kw>
+<kw name="Go To">
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<status status="NOT RUN" start="2025-10-17T11:48:23.715480" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-10-17T11:48:23.714486" elapsed="0.000994">No keyword with name 'Create WebDriver' found.</status>
+</kw>
+<status status="FAIL" start="2025-10-17T11:48:23.713484" elapsed="0.001996">No keyword with name 'Create WebDriver' found.</status>
+</test>
+<doc>To validate the Login form</doc>
+<status status="FAIL" start="2025-10-17T11:48:23.668483" elapsed="0.049001"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="testDemo1" id="s1" pass="0" fail="1" skip="0">testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-17T11:48:23.710483" level="ERROR">Error in file 'G:\OSAMAA\SoftwareTesting\Udemy\RobotFramework\tests\testDemo1.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\Lib\site-packages
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\Lib\site-packages\win32
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\Lib\site-packages\win32\lib
+  C:\Users\Osama\AppData\Local\Programs\Python\Python312\Lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
