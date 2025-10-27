@@ -11,12 +11,14 @@ class shop:
     @keyword
     def hello_world(self):
         print("Hello, world!")
-    
+
     @keyword
     def add_items_to_cart_and_checkout(self, productList):
         i = 1
-        productsTitles = self.selfLib.get_webelement("css:.card-title")
-        for productTitle in productsTitles:
-            if productTitle.text in productList:
-                self.selfLib.click_button("xpath:(//*[@class='card-footer'])["+str(i)+"]/button")
+        products_titles = self.selfLib.get_webelements("css:.card-title")  # plural
+        for product_title in products_titles:
+            title = product_title.text.strip()
+            if title in productList:
+                self.selfLib.click_button(f"xpath:(//*[@class='card-footer'])[{i}]/button")
             i += 1
+        self.selfLib.click_link("css:li.active a")  # fixed typo
