@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "access_token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjlkZDg1ZTEyMWQwMDAxNTFlZGEwMSIsImZpcnN0TmFtZSI6Ik9zYW1hIiwibGFzdE5hbWUiOiJNYWhtb3VkIiwiaWF0IjoxNzc3MzE0ODkwfQ.ImG8-JsJxzxn2X5me5NbZFuEjLQA0yt9xGgO4jcNekc",
+      "domain": "todo.qacart.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userID",
+      "value": "j%3A%2269b9dd85e121d000151eda01%22",
+      "domain": "todo.qacart.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "firstName",
+      "value": "Osama",
+      "domain": "todo.qacart.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
